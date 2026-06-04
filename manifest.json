@@ -6,7 +6,7 @@
       "id": "vixsrc",
       "name": "VixSrc (ITA/ENG)",
       "description": "Film e serie via VixSrc (backend Vixcloud) - audio ITA e ENG",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "author": "tuonome",
       "supportedTypes": ["movie", "tv"],
       "filename": "extractor/vixsrc.js",
