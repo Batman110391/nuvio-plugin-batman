@@ -6,6 +6,7 @@ package-lock.json
 node_modules/
 test.js
 utils/
+.env
 
 # Se preferisci tenere lo script di build versionato, togli "build/"
 # e "package.json" da questa lista.
