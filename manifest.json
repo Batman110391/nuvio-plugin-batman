@@ -1,6 +1,6 @@
 {
   "name": "Super power",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "scrapers": [
     {
       "id": "vixsrc",
@@ -56,7 +56,7 @@
       "id": "streamingcommunity",
       "name": "Streaming Community (ITA)",
       "description": "Film e serie via Streamingcommunity - audio ITA",
-      "version": "1.0.9",
+      "version": "1.0.10",
       "author": "batman",
       "supportedTypes": [
         "movie",
