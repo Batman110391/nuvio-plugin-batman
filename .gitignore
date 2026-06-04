@@ -1,0 +1,10 @@
+# Sorgente privato: pubblichi solo extractor/ + manifest.json
+provider/
+build/
+package.json
+package-lock.json
+node_modules/
+test.js
+
+# Se preferisci tenere lo script di build versionato, togli "build/"
+# e "package.json" da questa lista.
