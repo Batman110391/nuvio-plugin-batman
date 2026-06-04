@@ -1,32 +1,78 @@
 {
   "name": "Super power",
-  "version": "1.0.4",
+  "version": "1.0.9",
   "scrapers": [
     {
       "id": "vixsrc",
       "name": "VixSrc (ITA/ENG)",
-      "description": "Film e serie via VixSrc (backend Vixcloud) - audio ITA e ENG",
-      "version": "1.0.4",
+      "description": "Film e serie via VixSrc - audio ITA e ENG",
+      "version": "1.0.8",
       "author": "batman",
-      "supportedTypes": ["movie", "tv"],
-      "resources": ["stream"],
-      "contentLanguage": ["it", "en"],
-      "formats": ["m3u8"],
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "resources": [
+        "stream"
+      ],
+      "contentLanguage": [
+        "it",
+        "en"
+      ],
+      "formats": [
+        "m3u8"
+      ],
       "filename": "extractor/vixsrc.js",
       "enabled": true
     },
     {
       "id": "netmirror",
       "name": "NetMirror",
-      "description": "Movies and Series from NetMirror",
-      "version": "1.0.4",
+      "description": "Film e serie via NetMirror audio ITA e ENG",
+      "version": "1.0.7",
       "author": "batman",
-      "supportedTypes": ["movie", "tv"],
-      "resources": ["stream"],
-      "contentLanguage": ["it", "en"],
-      "formats": ["m3u8"],
-      "idPrefixes": ["tmdb:", "tt"],
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "resources": [
+        "stream"
+      ],
+      "contentLanguage": [
+        "it",
+        "en"
+      ],
+      "formats": [
+        "m3u8"
+      ],
+      "idPrefixes": [
+        "tmdb:",
+        "tt"
+      ],
       "filename": "extractor/netmirror.js",
+      "enabled": true
+    },
+    {
+      "id": "streamingcommunity",
+      "name": "Streaming Community (ITA)",
+      "description": "Film e serie via Streamingcommunity - audio ITA",
+      "version": "1.0.9",
+      "author": "batman",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "resources": [
+        "stream"
+      ],
+      "contentLanguage": [
+        "it",
+        "en"
+      ],
+      "formats": [
+        "m3u8"
+      ],
+      "filename": "extractor/streamingcommunity.js",
       "enabled": true
     }
   ]
