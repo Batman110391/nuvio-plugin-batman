@@ -1,12 +1,12 @@
 {
   "name": "Super power",
-  "version": "1.0.35",
+  "version": "1.0.36",
   "scrapers": [
     {
       "id": "vixsrc",
       "name": "VixSrc (ITA/ENG)",
       "description": "Film e serie via VixSrc - audio ITA e ENG",
-      "version": "1.0.9",
+      "version": "1.0.10",
       "author": "batman",
       "supportedTypes": [
         "movie",
@@ -29,7 +29,7 @@
       "id": "netmirror",
       "name": "NetMirror",
       "description": "Film e serie via NetMirror audio ITA e ENG",
-      "version": "1.0.8",
+      "version": "1.0.9",
       "author": "batman",
       "supportedTypes": [
         "movie",
@@ -56,7 +56,7 @@
       "id": "streamingcommunity",
       "name": "Streaming Community (ITA)",
       "description": "Film e serie via Streamingcommunity - audio ITA",
-      "version": "1.0.11",
+      "version": "1.0.12",
       "author": "batman",
       "supportedTypes": [
         "movie",
@@ -79,7 +79,7 @@
       "id": "torrentio",
       "name": "Torrent Direct",
       "description": "Film e serie via torrent (Torrentio/TPB) - multi-lingua",
-      "version": "1.0.15",
+      "version": "1.0.16",
       "author": "batman",
       "supportedTypes": [
         "movie",
