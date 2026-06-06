@@ -1,6 +1,6 @@
 {
   "name": "Super power",
-  "version": "1.0.36",
+  "version": "1.0.39",
   "scrapers": [
     {
       "id": "vixsrc",
@@ -79,7 +79,7 @@
       "id": "torrentio",
       "name": "Torrent Direct",
       "description": "Film e serie via torrent (Torrentio/TPB) - multi-lingua",
-      "version": "1.0.16",
+      "version": "1.0.19",
       "author": "batman",
       "supportedTypes": [
         "movie",
