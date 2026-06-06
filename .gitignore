@@ -7,6 +7,7 @@ node_modules/
 test.js
 utils/
 .env
+middleware
 
 # Se preferisci tenere lo script di build versionato, togli "build/"
 # e "package.json" da questa lista.
