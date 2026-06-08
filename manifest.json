@@ -1,6 +1,6 @@
 {
   "name": "Super power",
-  "version": "1.0.46",
+  "version": "1.0.48",
   "scrapers": [
     {
       "id": "vixsrc",
@@ -79,7 +79,7 @@
       "id": "torrentio",
       "name": "Torrent Direct",
       "description": "Film e serie via torrent (Torrentio/TPB) - multi-lingua",
-      "version": "1.0.26",
+      "version": "1.0.27",
       "author": "batman",
       "supportedTypes": [
         "movie",
@@ -96,6 +96,28 @@
         "torrent"
       ],
       "filename": "extractor/torrentio.js",
+      "enabled": true
+    },
+    {
+      "id": "corsaroviola",
+      "name": "CorsaroViola (ITA)",
+      "description": "Film e serie ITA via IlCorsaroViola + TorBox (stream HTTP istantanei)",
+      "version": "1.0.1",
+      "author": "batman",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "resources": [
+        "stream"
+      ],
+      "contentLanguage": [
+        "it"
+      ],
+      "formats": [
+        "m3u8"
+      ],
+      "filename": "extractor/corsaroviola.js",
       "enabled": true
     }
   ]
